@@ -6,3 +6,6 @@ I completed the project - a pong game.
 
 ## Coursera Week 5 Mini Project
 This is a memory game.
+
+## Coursera Week 6 Mini Project
+This is a BlackJack card game, player play with computer (dealer).
