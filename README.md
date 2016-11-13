@@ -9,3 +9,6 @@ This is a memory game.
 
 ## Coursera Week 6 Mini Project
 This is a BlackJack card game, player play with computer (dealer).
+
+## Bubble shoot
+A small bubble shooting program to practice
