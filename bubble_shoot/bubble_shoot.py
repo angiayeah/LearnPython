@@ -31,7 +31,7 @@ def dist(p,q):
 class Bubble:
     global firing_angle
     def __init__(self):
-        self.pos = [WIDTH // 2, HEIGHT-BUBBLE_RADIUS-1]
+        self.pos = [WIDTH // 2, HEIGHT]
         self.vel = [0.0, 0.0]
         self.color = random.choice(COLOR_LIST)
         self.sound = simplegui.load_sound('http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg')
@@ -39,9 +39,9 @@ class Bubble:
     def update(self):
         self.pos[0] += self.vel[0]
         self.pos[1] += self.vel[1]
-        if self.pos[0] <= BUBBLE_RADIUS or self.pos[0] >= WIDTH-BUBBLE_RADIUS:
+        if self.pos[0] < BUBBLE_RADIUS or self.pos[0] > WIDTH-BUBBLE_RADIUS:
             self.vel[0] = -self.vel[0]
-        if self.pos[1] <= BUBBLE_RADIUS or self.pos[1] >= HEIGHT-BUBBLE_RADIUS:
+        if self.pos[1] < BUBBLE_RADIUS or self.pos[1] > HEIGHT:
             self.vel[1] = -self.vel[1]
                 
         
