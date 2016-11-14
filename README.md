@@ -12,3 +12,6 @@ This is a BlackJack card game, player play with computer (dealer).
 
 ## Bubble shoot
 A small bubble shooting program to practice
+
+## Coursera Week 7 Mini Project
+A spaceship game, but it is not a real game yet, will be completed in week 8
